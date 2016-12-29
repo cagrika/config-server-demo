@@ -1,6 +1,6 @@
 spring:
     application:
-        name: filetransfer
+        name: file-transporter
 server:
     port: 9001
 key: alfabeta
