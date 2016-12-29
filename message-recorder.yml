@@ -1,5 +1,5 @@
 spring:
     application:
-        name: filetransfer
+        name: messagerecorder
 server:
     port: 9002
