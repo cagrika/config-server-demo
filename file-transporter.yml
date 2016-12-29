@@ -4,4 +4,4 @@ spring:
 server:
     port: 9001
 messageFrom: mesBox
-freq: 10000
+freq: 100000000
