@@ -3,5 +3,5 @@ spring:
         name: filetransfer
 server:
     port: 9001
-messageFrom: yourPC
-freq: 1000
+messageFrom: mesBox
+freq: 10000
