@@ -3,5 +3,5 @@ spring:
         name: filetransfer
 server:
     port: 9001
-messageFrom: mesBox
+messageFrom: canavar
 freq: 100000000
