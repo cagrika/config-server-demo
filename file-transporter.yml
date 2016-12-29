@@ -3,5 +3,4 @@ spring:
         name: filetransfer
 server:
     port: 9001
-message:
-    freq: 5
+messageFrom: messageBox
