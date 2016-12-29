@@ -1,0 +1,5 @@
+spring:
+    application:
+        name: filetransfer
+server:
+    port: 9002
