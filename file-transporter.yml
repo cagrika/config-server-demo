@@ -4,4 +4,4 @@ spring:
 server:
     port: 9001
 messageFrom: canavar
-freq: 100000000
+freq: 1
