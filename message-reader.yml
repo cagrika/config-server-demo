@@ -5,3 +5,7 @@ server:
     port: 9001
 key: alfabeta
 readFileFlag: true
+turbine:
+  aggregator:
+    clusterConfig: SAMPLE-HYSTRIX-AGGREGATE
+    appConfig: SAMPLE-HYSTRIX-AGGREGATE
