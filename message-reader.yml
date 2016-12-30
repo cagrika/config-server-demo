@@ -1,6 +1,6 @@
 spring:
     application:
-        name: file-transporter
+        name: message-reader
 server:
     port: 9001
 key: alfabeta
