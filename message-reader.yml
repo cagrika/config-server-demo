@@ -4,7 +4,7 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: https://eurekademo.cfapps.industrycloud-staging.siemens.com/
+      defaultZone: localhost:8761
 server:
     port: 9001
 key: alfabeta
