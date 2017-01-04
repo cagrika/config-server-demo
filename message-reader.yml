@@ -1,10 +1,6 @@
 spring:
     application:
         name: message-reader
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: localhost:8761
 server:
     port: 9001
 key: alfabeta
