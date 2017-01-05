@@ -3,5 +3,5 @@ spring:
         name: message-reader
 server:
     port: 9001
-key: alfabeta
+key: betaalfa
 readFileFlag: true
