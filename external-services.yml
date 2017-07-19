@@ -1,0 +1,45 @@
+spring:
+  profiles:
+    active: test
+
+rest:
+  connection-timeout: 5000
+  read-timeout: 20000
+
+---
+
+spring:
+  profiles: dev
+
+sonraneoldu:
+  backend:
+    url: http://localhost:8080
+  content-service:
+    url: http://localhost:8080
+  source:
+    id: 97
+
+---
+spring:
+  profiles: test
+
+sonraneoldu:
+  backend:
+    url: http://api.sonraneoldu.com
+  content-service:
+      url: http://localhost:8080
+  source:
+    id: 97
+
+---
+
+spring:
+  profiles: prod
+
+sonraneoldu:
+  backend:
+    url: http://api.sonraneoldu.com
+  content-service:
+    url: http://internal-sno-content-consumer-internal-581528347.eu-west-1.elb.amazonaws.com
+  source:
+    id: 97
