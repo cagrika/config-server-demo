@@ -27,7 +27,7 @@ sonraneoldu:
   backend:
     url: http://api.sonraneoldu.com
   content-service:
-      url: http://localhost:8080
+      url: fena
   source:
     id: 97
 
