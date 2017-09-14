@@ -1,0 +1,39 @@
+spring:
+  profiles:
+    active: test
+
+rest:
+  connection-timeout: 5000
+  read-timeout: 20000
+
+---
+
+spring:
+  profiles: dev
+
+sonraneoldu:
+  content-service:
+    url: http://consumer.sno.pub
+  source:
+    id: 157
+
+---
+spring:
+  profiles: test
+
+sonraneoldu:
+  content-service:
+    url: http://internal-consumer.sno.pub:8081
+  source:
+    id: 157
+
+---
+
+spring:
+  profiles: prod
+
+sonraneoldu:
+  content-service:
+    url: http://internal.sonraneoldu.com:8081
+  source:
+    id: 157
