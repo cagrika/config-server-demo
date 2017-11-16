@@ -4,4 +4,4 @@ spring:
 server:
     port: 9003
 key: betaalfa
-readFileFlag: false
+readFileFlag: true
