@@ -1,5 +1,5 @@
 spring:
     application:
-        name: message-recorder
+        name: message-writer
 server:
     port: {SERVER_PORT:9002}
