@@ -3,4 +3,4 @@ spring:
         name: message-reader
 server:
     port: 9003
-function: true
+function: false
